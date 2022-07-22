@@ -30,7 +30,7 @@ h1 > span {
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 3.0rem;
   margin-bottom: 4rem;
   font-weight: 700;
 }
@@ -77,6 +77,30 @@ h3 {
 
 .hidden {
   display: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #56a5eb;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer > p{
+  color: white;
+}
+
+a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #333;
 }
 
 /* BUTTONS */
